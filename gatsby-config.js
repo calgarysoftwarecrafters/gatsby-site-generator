@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
+    title: 'Calgary Software Crafters',
     description: 'Gatsby starter for bootstrap a blog',
     siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    author: 'Calgary Software Crafters',
+    twitter: 'crafterscalgary',
     adsense: '',
   },
   pathPrefix: '/',

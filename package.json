@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
+  "description": "Calgary Software Crafters site generator",
   "version": "3.0.0",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "author": "Calgary Software Crafters <calgary.software.crafters@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.34",
     "@fortawesome/free-brands-svg-icons": "5.15.2",
@@ -79,7 +79,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/calgarysoftwarecrafters/calgarysoftwarecrafters.github.io.git",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.+(js|json|md)\" --ignore-path .gitignore",
     "lint": "eslint --fix --ext .js,.jsx --ignore-path .gitignore .",

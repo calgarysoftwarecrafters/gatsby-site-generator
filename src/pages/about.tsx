@@ -17,20 +17,20 @@ const Profile: React.FC<Props> = ({ location, data }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={siteMetadata} title="Profile" />
+      <Meta site={siteMetadata} title="About" />
       <div>
         <section className="text-center">
           <div className="container">
             <Img fixed={profile as FixedObject} className="rounded-circle" />
-            <h1>jaxx2104</h1>
-            <p className="lead text-muted">Front-end engineer.</p>
+            <h1>Calgary Software Crafters</h1>
+            <p className="lead text-muted">We are software developers who know that writing quality code comes from deliberate practice. We find that writing code together makes it more fun and better quality than going it alone. Our meetings include guest speakers and opportunities to practice new skills and hone old ones. We use Test Driven Development while coding in pairs to tackle short programming challenges, called katas. Whether you have a favourite programming language, IDE, OS, or testing framework, or you’re completely new to code, it doesn’t matter. If you bring your imagination, curiosity and a computer, you are welcome.</p>
             <div>
               <a
-                href="https://twitter.com/jaxx2104"
+                href="https://twitter.com/crafterscalgary"
                 className="twitter-follow-button"
                 data-show-count="false"
               >
-                Follow @jaxx2104
+                Follow @crafterscalgary
               </a>
             </div>
           </div>
