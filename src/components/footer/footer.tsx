@@ -13,9 +13,9 @@ const Footer: React.FC<Props> = ({ author, title }: Props) => (
       <hr className="border-primary" />
       <p>
         {title}
-        <Link to="/profile/">
+        <Link to="/about/">
           <br />
-          <strong>{author}</strong> on Profile
+          <strong>{author}</strong> on About
         </Link>
       </p>
     </div>
