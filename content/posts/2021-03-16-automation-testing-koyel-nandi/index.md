@@ -12,3 +12,6 @@ tags:
   - Automation
   - Testing
 ---
+
+Kata information:
+https://github.com/calgarysoftwarecrafters/SeleniumSetup
