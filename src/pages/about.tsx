@@ -35,6 +35,13 @@ const Profile: React.FC<Props> = ({ location, data }: Props) => {
             </div>
           </div>
         </section>
+        <section className="text-center">
+          <div className="container">
+              <a href="https://www.coderetreat.org/resources/code-of-conduct/">
+                <h1>Code of Conduct</h1>
+              </a>
+          </div>
+        </section>
       </div>
     </Layout>
   )
