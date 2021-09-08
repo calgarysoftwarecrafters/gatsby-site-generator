@@ -14,6 +14,7 @@ interface Props {
 
 const Profile: React.FC<Props> = ({ location, data }: Props) => {
   const profile = data.profile?.childImageSharp?.fixed
+  const sponsors = data.sponsors?.childImageSharp?.fixed
 
   return (
     <Layout location={location}>
@@ -33,6 +34,12 @@ const Profile: React.FC<Props> = ({ location, data }: Props) => {
                 Follow @crafterscalgary
               </a>
             </div>
+          </div>
+        </section>
+        <section className="text-center">
+          <div className="container-center">
+            <h1>Sponsors</h1>
+            <Img fixed={sponsors as FixedObject} />
           </div>
         </section>
         <section className="text-center">
@@ -58,5 +65,13 @@ export const query = graphql`
         }
       }
     }
+    sponsors: file(name: { eq: "calgary-software-crafters-sponsors" }) {
+      childImageSharp {
+        fixed(width: 960, height: 540) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    }
+
   }
 `
