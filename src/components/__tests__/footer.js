@@ -1,10 +1,10 @@
 import React from "react"
 import renderer from "react-test-renderer"
-import Footer from "../footer"
+import Footer from "../footer/footer.tsx"
 describe("Footer", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<Header siteTitle="Default Starter" />)
+      .create(<Footer siteTitle="Default Starter" />)
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
