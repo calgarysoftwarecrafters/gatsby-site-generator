@@ -2,8 +2,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Calgary Software Crafters',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
+    description: 'Calgary Software Crafters',
+    siteUrl: 'https://calgarysoftwarecrafters.github.io/',
     author: 'Calgary Software Crafters',
     twitter: 'crafterscalgary',
     adsense: '',
@@ -53,8 +53,8 @@ module.exports = {
       options: {
         name: 'Gatstrap',
         short_name: 'Gatstrap',
-        description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        description: 'Calgary Software Crafters',
+        homepage_url: 'https://calgarysoftwarecrafters.github.io/',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#673ab7',
