@@ -11,7 +11,7 @@ tags:
   - AgileTechnicalPractices
 ---
 
-Emergent design is a cornerstone of eXtreme programming, TDD and Refactoring. Yet, most teams struggle with large amounts of duplication and copy & paste code instead of elegantly designed architecture.
+Test test Emergent design is a cornerstone of eXtreme programming, TDD and Refactoring. Yet, most teams struggle with large amounts of duplication and copy & paste code instead of elegantly designed architecture.
 In this workshop we will pair up to work on small practice exercises that help us to see the duplication in the code. Then quickly and easily refactor to remove it and allow the hidden architecture inherent in the code to emerge.
 
 We will look at exercises in one of 5 languages ( python, c#, c++, javascript or java ) so bring a laptop with an IDE and get ready to code!
